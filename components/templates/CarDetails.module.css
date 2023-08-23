@@ -1,0 +1,80 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.header {
+  margin: 40px 0 20px;
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+.details {
+  background-color: #362A60;
+  width: 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 10px 20px;
+  margin: 15px 0;
+  border-radius: 5px;
+}
+
+.details div {
+  display: flex;
+  align-items: baseline;
+  margin: 15px 0;
+}
+
+.details span {
+  color: silver;
+  margin-left: auto;
+}
+
+.descriptionTitle {
+  margin: 15px 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.descriptionText {
+  color: silver;
+  text-align: justify;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+.details p {
+  margin-left: 10px;
+  color: aliceblue;
+}
+
+
+.details .price {
+  display: flex;
+  align-items: center;
+}
+
+.price p,
+.price span {
+  font-size: 1.5rem;
+}
+
+.button {
+  background-color: #6E4FEF;
+  border: none;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 50px 0;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0 15px;
+  }
+}

@@ -1,0 +1,52 @@
+.container {
+  box-shadow: rgba(210, 214, 219, 0.2) 0px 8px 24px;
+  width: fit-content;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px;
+  margin: 15px;
+  background-color: #2A293E;
+}
+
+.image {
+  width: 300px;
+  min-height: 225px;
+  border-radius: 5px;
+}
+
+.title {
+  margin: 10px 0;
+  color: aliceblue;
+}
+
+.detail {
+  font-size: 0.85rem;
+  color: grey;
+  margin: 5px 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 5px;
+}
+
+.price {
+  background-color: #5740A0;
+  padding: 3px 5px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #040307;
+}
+
+.location {
+  display: flex;
+  align-items: flex-end;
+}
+
+.location p {
+  font-size: 0.9rem;
+  margin-right: 5px;
+  color: aliceblue;
+}
